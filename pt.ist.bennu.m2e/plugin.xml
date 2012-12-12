@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.m2e.core.projectConfigurators">
+      <configurator
+            class="pt.ist.bennu.m2e.UpdateWebFragmentConfigurator"
+            id="pt.ist.bennu.m2e.UpdateWebFragmentConfigurator"
+            name="Update Bennu web fragment project Configurator">
+      </configurator>
+      <configurator
+            class="pt.ist.bennu.m2e.PostCompileConfigurator"
+            id="pt.ist.bennu.m2e.PostCompileConfigurator"
+            name="Bennu Post Compile Project Configurator">
+      </configurator>
+   </extension>
+   <extension
+         point="org.eclipse.m2e.core.lifecycleMappingMetadataSource">
+   </extension>
+</plugin>
